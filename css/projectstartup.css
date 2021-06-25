@@ -1,0 +1,55 @@
+#content{
+	text-align: center;
+	padding-top: 25%;
+}
+
+body{
+	 background: url(https://images.unsplash.com/photo-1607013502213-a33bdd54851a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+	 background-size: cover;	
+/*	 background-position: center;*/
+}	
+
+html{
+	height: 100%;
+
+	/*
+	when u set an image as cover, it sets the height of the body same as that of the iamge. So when teh screen becomes smaller or larger beyond
+	the size of the image, the backgorund image	repeats, to fill the screen. To prevent this, set the html height as 100%. This makes sure that the 
+	Height of the documnet is 100% of the available window, and it will force the image to scale and fit the available window, rather than repeating*/
+}
+
+h1{
+	/*font-family: 'Alegreya Sans', sans-serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h3 {
+	color: #e6faff;
+/*
+complex shadwo by overlaying multiple shadows
+	text-shadow:  0px 4px 3px red,     
+				  0px 8px 13px orange,
+				  0px 18px 23px yellow*/
+/*	font-weight: 700;*/
+
+	text-shadow:  0px 4px 3px rgba(0,0,0,0.4),     
+				  0px 8px 13px rgba(0,0,0,0.4),
+				  0px 18px 23px rgba(0,0,0,0.4);
+
+
+}
+
+h1{
+	
+	font-size: 5em;
+}
+
+h3{
+	font-size: 2em;
+}
+
+hr{
+	width: 25em;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.1)
+}
