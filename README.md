@@ -1,11 +1,15 @@
 ---
-topic: HTML Hello World
+topic: MonsoonVibes StoreFront App - Azure Static Website Testing
 languages:
   - HTML
 products:
   - Azure App Service
   - Azure Web Apps
 ---
+
+# GIT
+This repo is locally available on the laptop. Change code and push to this Repo. The github actions will push the code to the azure storage account and the site will be updated
+
 
 # HTML Hello World
 
